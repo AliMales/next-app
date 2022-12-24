@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 console.log(inter)
 
 export default function Home() {
+  window.location.href='https://doc.tigerzh.com'
   return (
     <>
       <Head>
