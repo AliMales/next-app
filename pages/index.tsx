@@ -1,8 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-export default function Home() {
+import { useEffect } from 'react'
 
-  window.location.href='https://doc.tigerzh.com'
+export default function Home() {
+  useEffect(() => {
+    window.location.href = 'https://doc.tigerzh.com'
+  }, [])
+
   return (
     <>
       <Head>
