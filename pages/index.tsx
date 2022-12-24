@@ -4,7 +4,6 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
-console.log(inter)
 
 export default function Home() {
   window.location.href='https://doc.tigerzh.com'
